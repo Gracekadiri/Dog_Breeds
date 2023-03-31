@@ -1,0 +1,2 @@
+## INTRODUCTION
+Dog breeds have unique characteristics that distinguish them from one another. This analysis aims to identify some of the key differences between dog breeds, focusing on their physical traits, behavior, and suitability for specific lifestyles. Through the examination of various factors such as weight, height, litter size, speed, and lifespan, we have identified 10 key findings that can help individuals choose the right breed for their needs.
