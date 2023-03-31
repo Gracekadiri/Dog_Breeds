@@ -15,7 +15,8 @@ Here we asked the following question:
 - Is there a correlation between weight and litter size among dog breeds?
 - Which breed group has the shortest and tallest dogs?
 - Which breeds are suitable for specific lifestyles or activities?
-##Findings:
+
+## Findings:
 - Positive correlation between weight and height, but not with lifespan
 - Smaller dog breeds tend to have smaller litters than larger dog breeds
 - Greyhounds are the fastest breed, while Pekingese are one of the slowest
