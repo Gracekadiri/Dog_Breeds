@@ -5,12 +5,11 @@ Dogs are one of the most popular domesticated animals, and there are hundreds of
 The aim of this analysis is to explore the correlations between different characteristics of dog breeds. This includes investigating the relationship between weight and height, litter size, lifespan, and average height across different breed groups. Additionally, we will examine the suitability of different breeds for certain lifestyles or activities, as well as identifying hypoallergenic breeds.
 ## Ask:
 Here we asked the following question:
-***
-What is the correlation between weight, height, and lifespan among dog breeds?
-How does litter size vary across different dog breeds?
-Which breed is considered the fastest and slowest?
-What are some hypoallergenic breeds, and what does hypoallergenic mean?
-How many breeds are there in the Foundation Stock Service group?
+- What is the correlation between weight, height, and lifespan among dog breeds?
+- How does litter size vary across different dog breeds?
+- Which breed is considered the fastest and slowest?
+- What are some hypoallergenic breeds, and what does hypoallergenic mean?
+- How many breeds are there in the Foundation Stock Service group?
 How does lifespan vary across different breed groups?
 What are the common characteristics of intelligent and affectionate breeds?
 Is there a correlation between weight and litter size among dog breeds?
