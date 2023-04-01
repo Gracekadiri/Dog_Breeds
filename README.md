@@ -1,7 +1,3 @@
-
-
-https://user-images.githubusercontent.com/106782819/229256190-b054b4e7-e65d-44ef-9497-65c8936b3bce.mp4
-
 ## Introduction:
 Dogs are one of the most popular domesticated animals, and there are hundreds of different breeds. Each breed has unique characteristics, including size, lifespan, litter size, speed, intelligence, and suitability for certain lifestyles or activities. Understanding the relationships between these characteristics can be valuable for breeders, pet owners, and researchers.
 
@@ -31,3 +27,9 @@ Here we asked the following question:
 - Slight positive correlation between weight and litter size, but with a lot of variability within each breed
 - Toy breed groups are the shortest, while Working groups are the tallest
 - Different breeds are recommended for specific lifestyles or activities, such as families with children or apartment living.
+
+
+
+https://user-images.githubusercontent.com/106782819/229256811-14cb2957-6edb-46f7-81e1-f4d296d37947.mp4
+
+
