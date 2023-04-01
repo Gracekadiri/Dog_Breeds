@@ -44,9 +44,6 @@ For individuals seeking a more laid-back companion, breeds like the Tibetan Span
 
 
 ```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
 import pandas as pd
 import numpy as np
 import seaborn as sns
@@ -221,14 +218,3 @@ common_temperaments.plot(kind="bar", y ="Temperament", color=["black"])
 Top_5_dog_Breed_Origin = dog_breeds.groupby("Breed_Origin")["Breed_Name"].nunique().sort_values(ascending = 0).head(10)
 print(Top_5_dog_Breed_Origin)
 ```
-'''ruby
-import pandas as pd
-import numpy as np
-import seaborn as sns
-import matplotlib 
-from matplotlib import pyplot as plt
-from matplotlib import style
-plt.style.use('ggplot')
-'''
-
-
