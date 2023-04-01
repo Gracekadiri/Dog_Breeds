@@ -47,6 +47,13 @@ For individuals seeking a more laid-back companion, breeds like the Tibetan Span
 require 'redcarpet'
 markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib 
+from matplotlib import pyplot as plt
+from matplotlib import style
+plt.style.use('ggplot')
 ```
 '''
 import pandas as pd
