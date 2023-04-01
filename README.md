@@ -1,3 +1,7 @@
+
+
+https://user-images.githubusercontent.com/106782819/229256190-b054b4e7-e65d-44ef-9497-65c8936b3bce.mp4
+
 ## Introduction:
 Dogs are one of the most popular domesticated animals, and there are hundreds of different breeds. Each breed has unique characteristics, including size, lifespan, litter size, speed, intelligence, and suitability for certain lifestyles or activities. Understanding the relationships between these characteristics can be valuable for breeders, pet owners, and researchers.
 
