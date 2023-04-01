@@ -1,6 +1,8 @@
 ## Introduction:
 Dogs are one of the most popular domesticated animals, and there are hundreds of different breeds. Each breed has unique characteristics, including size, lifespan, litter size, speed, intelligence, and suitability for certain lifestyles or activities. Understanding the relationships between these characteristics can be valuable for breeders, pet owners, and researchers.
 
+
+
 ## Aim:
 The aim of this analysis is to explore the correlations between different characteristics of dog breeds. This includes investigating the relationship between weight and height, litter size, lifespan, and average height across different breed groups. Additionally, we will examine the suitability of different breeds for certain lifestyles or activities, as well as identifying hypoallergenic breeds.
 ## Ask:
@@ -15,13 +17,6 @@ Here we asked the following question:
 - Is there a correlation between weight and litter size among dog breeds?
 - Which breed group has the shortest and tallest dogs?
 - Which breeds are suitable for specific lifestyles or activities?
-
-
-
-## Dashboard
-https://user-images.githubusercontent.com/106782819/229256811-14cb2957-6edb-46f7-81e1-f4d296d37947.mp4
-### Link to Dashboard:
-https://app.powerbi.com/links/FR9Wyaq_lO?ctid=140ab389-b14b-4153-b9ab-3b333b7a78b3&pbi_source=linkShare&bookmarkGuid=45f2daff-6187-4fb4-8c2f-f5cd6ccade9a
 
 ## Analysis
 ```ruby
@@ -199,6 +194,14 @@ common_temperaments.plot(kind="bar", y ="Temperament", color=["black"])
 Top_5_dog_Breed_Origin = dog_breeds.groupby("Breed_Origin")["Breed_Name"].nunique().sort_values(ascending = 0).head(10)
 print(Top_5_dog_Breed_Origin)
 ```
+
+
+## Dashboard
+https://user-images.githubusercontent.com/106782819/229256811-14cb2957-6edb-46f7-81e1-f4d296d37947.mp4
+### Link to Dashboard:
+https://app.powerbi.com/links/FR9Wyaq_lO?ctid=140ab389-b14b-4153-b9ab-3b333b7a78b3&pbi_source=linkShare&bookmarkGuid=45f2daff-6187-4fb4-8c2f-f5cd6ccade9a
+
+
 
 
 ## Findings:
