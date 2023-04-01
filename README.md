@@ -54,32 +54,9 @@ import matplotlib
 from matplotlib import pyplot as plt
 from matplotlib import style
 plt.style.use('ggplot')
-```
-'''
-import pandas as pd
-import numpy as np
-import seaborn as sns
-import matplotlib 
-from matplotlib import pyplot as plt
-from matplotlib import style
-plt.style.use('ggplot')
-'''
-
-
-# In[2]:
-
 
 dog_breeds = pd.read_csv("BREEDS.csv", encoding="ISO-8859-1")
-
-
-# In[3]:
-
-
 print(dog_breeds.describe())
-
-
-# In[5]:
-
 
 # calculate correlation between weight and height
 correlation_weight_height = dog_breeds["Max_weight"].corr(dog_breeds["Max_height"])
@@ -94,17 +71,11 @@ print("Correlation between weight and lifespan:", correlation_weight_lifespan)
 sns.scatterplot(x="Max_weight", y="Max_height", data=dog_breeds)
 sns.scatterplot(x="Max_weight", y="Max_life_span", data=dog_breeds)
 
-
-# In[6]:
-
-
 grouped_Max_litter_size = dog_breeds.groupby("Breed_Name")["Max_litter_size"].sum().sort_values(ascending = 0).head(5)
 grouped_Min_litter_size = dog_breeds.groupby("Breed_Name")["Max_litter_size"].sum().sort_values(ascending = 0).tail(5)
 print(grouped_Max_litter_size)
 print(grouped_Min_litter_size)
 
-
-# In[7]:
 
 
 # calculate average speed of each breed
@@ -116,29 +87,15 @@ slowest_breed = dog_breeds.loc[dog_breeds["Speed_value"].idxmin()]["Breed_Name"]
 print("Fastest dog breed is", fastest_breed)
 print("Slowest dog breed is", slowest_breed)
 
-
-# In[65]:
-
-
 #  breeds that are Hypoallergenic
 hypoallergenic_breeds = dog_breeds.loc[dog_breeds['Hypoallergenic'] == 'Yes', 'Breed_Name'].tolist()
 print('HYPOALLERGENIC DOG BREEDS:', 
       hypoallergenic_breeds)
 
-
-# In[53]:
-
-
 # top 5 dog breeds origin and the number of breeds from each origin
 grouped_Breed_Groups = dog_breeds.groupby("Breed_Group")["Breed_Name"].nunique().sort_values(ascending = 0)
 print(grouped_Breed_Groups)
 grouped_Breed_Groups.plot(kind="bar", y ="Breed_Group", color=["black"])
-
-
-# In[54]:
-
-
-import pandas as pd
 
 # Create an empty dictionary to store the frequency counts of each word
 word_counts = {}
@@ -160,7 +117,6 @@ for desc in dog_breeds['Temperament']:
 sorted_counts = sorted(word_counts.items(), key=lambda x: x[1], reverse=True)
 
 
-
 # Create a list of keywords to search for in the breed descriptions
 keywords = ['intelligent', 'loyal', 'friendly', 'affectionate', 'protective', 'energetic', 'independent']
 
@@ -179,11 +135,7 @@ for i, breed in enumerate(dog_breeds['Breed_Name']):
 
     # Reset the keyword counts for the next breed
     keyword_counts = {k: 0 for k in keywords}
-
-
-# In[55]:
-
-
+    
 # Calculate the average lifespan for each breed group
 group_lifespans = dog_breeds.groupby("Breed_Group")["Max_life_span"].mean()
 group_lifespans
@@ -192,10 +144,6 @@ longest_lifespan_group = group_lifespans.idxmax()
 shortest_lifespan_group  = group_lifespans.idxmin()
 print ("The group with the longest average lifespan:", longest_lifespan_group)
 print("The group with the shortest average lifespan:", shortest_lifespan_group)
-
-
-# In[56]:
-
 
 from collections import Counter
 
@@ -215,23 +163,14 @@ for word, count in common_words:
     print(f"{word}: {count} times")
 
 
-# In[18]:
-
-
 breeds_by_temperament = dog_breeds.groupby('Temperament')['Breed_Name'].apply(list).head(30)
 breeds_by_temperament
-
-
-# In[25]:
 
 
 correlation_weight_lifesize = dog_breeds["Max_weight"].corr(dog_breeds["Max_litter_size"])
 print("Correlation between weight and lifesize:", correlation_weight_lifesize)
 # Creating a scatter plot of weight versus litter size
 sns.scatterplot(x="Max_weight", y="Max_litter_size", data=dog_breeds)
-
-
-# In[32]:
 
 
 grouped = dog_breeds.groupby('Breed_Group')['Min_height', 'Max_height',].mean()
@@ -244,9 +183,6 @@ plt.ylabel("Average Weight/Height")
 plt.show()
 
 
-# In[33]:
-
-
 suitable_for_children = dog_breeds.loc[dog_breeds['Suitable_For'].str.contains('children', case=False), 'Breed_Name'].tolist()
 suitable_for_apartment = dog_breeds.loc[dog_breeds['Suitable_For'].str.contains('apartment', case=False), 'Breed_Name'].tolist()
 children_breeds = dog_breeds['Suitable_For'].str.contains('children', case=False).sum()
@@ -256,9 +192,6 @@ print('Number of Dog Breeds Suitable for Children:', children_breeds)
 print('Number of Dog Breeds Suitable for apartment:', apartment_breeds)
 print("BREEDS SUITABLE FOR APARTMENT:", suitable_for_apartment)
 print("BREEDS SUITABLE FOR CHILDREN:", suitable_for_children)
-
-
-# In[62]:
 
 
 # filter breeds by size
@@ -275,9 +208,6 @@ print("Recommended large breeds:")
 print(large_breeds["Breed_Name"].tolist()[:10])
 
 
-# In[63]:
-
-
 # Filter for hypoallergenic breeds
 hypoallergenic_breeds = dog_breeds[dog_breeds["Hypoallergenic"] == "Yes"]
 
@@ -288,8 +218,17 @@ common_temperaments = pd.Series([t for sublist in temperaments for t in sublist]
 common_temperaments.plot(kind="bar", y ="Temperament", color=["black"])
 
 
-# In[64]:
-
-
 Top_5_dog_Breed_Origin = dog_breeds.groupby("Breed_Origin")["Breed_Name"].nunique().sort_values(ascending = 0).head(10)
-print(Top_5_dog_Breed_Origin)'''
+print(Top_5_dog_Breed_Origin)
+```
+'''ruby
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib 
+from matplotlib import pyplot as plt
+from matplotlib import style
+plt.style.use('ggplot')
+'''
+
+
