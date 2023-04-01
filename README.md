@@ -20,6 +20,7 @@ Here we asked the following question:
 
 ## Dashboard
 https://user-images.githubusercontent.com/106782819/229256811-14cb2957-6edb-46f7-81e1-f4d296d37947.mp4
+https://app.powerbi.com/links/FR9Wyaq_lO?ctid=140ab389-b14b-4153-b9ab-3b333b7a78b3&pbi_source=linkShare&bookmarkGuid=45f2daff-6187-4fb4-8c2f-f5cd6ccade9a
 
 ## Analysis
 ```ruby
