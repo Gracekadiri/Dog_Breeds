@@ -42,6 +42,12 @@ Individuals with allergies, consider adopting breeds like the Black Russian Terr
 If individuals are seeking a high-energy companion, breeds like the Brittany and Miniature American Shepherd may be more suitable due to their intelligence and active nature.
 For individuals seeking a more laid-back companion, breeds like the Tibetan Spaniel and Border Terrier may be more suitable
 
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
 '''
 import pandas as pd
 import numpy as np
