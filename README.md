@@ -217,10 +217,10 @@ https://app.powerbi.com/links/FR9Wyaq_lO?ctid=140ab389-b14b-4153-b9ab-3b333b7a78
 - Certain breeds are suitable for specific lifestyles or activities, such as the German Pinscher and Bearded Collie for families with children and the Chihuahua and Border Terrier for apartment living due to their small size and lower exercise requirements.
 
 ## Recommendations:
-Breeds like the Chihuahua and Border Terrier may be more suitable for individuals living in smaller spaces, due to their smaller size and lower exercise requirements.
-For individuals with children, breeds like the German Pinscher and Bearded Collie may be more suitable due to their friendly and active nature.
-Individuals with allergies, consider adopting breeds like the Black Russian Terrier, Borzoi, and Barbet, which are known for being hypoallergenic.
-If individuals are seeking a high-energy companion, breeds like the Brittany and Miniature American Shepherd may be more suitable due to their intelligence and active nature.
-For individuals seeking a more laid-back companion, breeds like the Tibetan Spaniel and Border Terrier may be more suitable
+- Breeds like the Chihuahua and Border Terrier may be more suitable for individuals living in smaller spaces, due to their smaller size and lower exercise requirements.
+- For individuals with children, breeds like the German Pinscher and Bearded Collie may be more suitable due to their friendly and active nature.
+- Individuals with allergies, consider adopting breeds like the Black Russian Terrier, Borzoi, and Barbet, which are known for being hypoallergenic.
+- If individuals are seeking a high-energy companion, breeds like the Brittany and Miniature American Shepherd may be more suitable due to their intelligence and active nature.
+- For individuals seeking a more laid-back companion, breeds like the Tibetan Spaniel and Border Terrier may be more suitable
 
 
